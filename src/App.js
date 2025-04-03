@@ -5,7 +5,6 @@ import AboutUs from './Pages/AboutUs';
 import PrescriptionSubmission from './Pages/PrescriptionSubmission';
 import ContactPage from './Pages/ContactPage';
 
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
