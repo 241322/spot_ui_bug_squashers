@@ -1,33 +1,50 @@
-import { BrowserRouter as Router , Routes , Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation, Link } from 'react-router-dom';
 
 import HomePage from './Pages/HomePage';
 import AboutUs from './Pages/AboutUs';
 import PrescriptionSubmission from './Pages/PrescriptionSubmission';
 import ContactPage from './Pages/ContactPage';
 
-import { Link } from 'react-router-dom';
 
 import './App.css';
+
+const NavLink = ({ to, children }) => {
+  const location = useLocation();
+  const isActive = location.pathname === to;
+  
+  return (
+    <Link 
+      className={`nav-link ${isActive ? 'active' : ''}`} 
+      to={to}
+    >
+      {children}
+    </Link>
+  );
+};
 
 function App() {
   return (
     <Router>
-    <div>
-      <nav style={{ padding: '1rem', borderBottom: '1px solid #ccc' }}>
-        <Link className='nav-link' to="/" style={{ marginRight: '1rem' }}>Home</Link>
-        <Link className='nav-link' to="/about" style={{ marginRight: '1rem' }}>About Us</Link>
-        <Link className='nav-link' to="/prescription" style={{ marginRight: '1rem' }}>Prescription</Link>
-        <Link className='nav-link' to="/contact">Contact</Link>
-      </nav>
+      <div>
+        <nav style={{ padding: '1rem', borderBottom: '1px solid #ccc' }}>
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/about">About Us</NavLink>
+          <NavLink to="/prescription">Prescription</NavLink>
+          <NavLink to="/contact">Contact</NavLink>
+   
+        </nav>
 
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/about" element={<AboutUs />} />
-        <Route path="/prescription" element={<PrescriptionSubmission />} />
-        <Route path="/contact" element={<ContactPage />} />
-      </Routes>
-    </div>
-  </Router>
+        <div className="page-content">
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/about" element={<AboutUs />} />
+            <Route path="/prescription" element={<PrescriptionSubmission />} />
+            <Route path="/contact" element={<ContactPage />} />
+          
+          </Routes>
+        </div>
+      </div>
+    </Router>
   );
 }
 
