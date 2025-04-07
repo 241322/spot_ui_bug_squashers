@@ -1,3 +1,84 @@
 body{
     margin-left: 15rem;
+    font-family: 'Segoe UI', sans-serif;
 }
+
+:root {
+    --color-light: #C4CFCE;
+    --color-primary: #1A998F;
+    --color-secondary: #187F87;
+    --color-dark: #155665;
+    --color-deep: #102E3C;
+}
+  
+.form-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: var(--color-light);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+  
+h2 {
+    color: var(--color-dark);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+  
+form input, form textarea {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border: 1px solid var(--color-secondary);
+    border-radius: 8px;
+    font-size: 1rem;
+}
+  
+textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+  
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: var(--color-deep);
+}
+  
+.delivery-info {
+    font-size: 0.9rem;
+    color: var(--color-dark);
+    margin-bottom: 1rem;
+}
+  
+button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: var(--color-primary);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+  
+button:hover {
+    background-color: var(--color-secondary);
+}
+
+.btn-teal {
+    background-color: #1A998F;
+    color: white;
+    border: none;
+  }
+  
+.btn-teal:hover {
+    background-color: #187F87;
+    color: white;
+}
+  
