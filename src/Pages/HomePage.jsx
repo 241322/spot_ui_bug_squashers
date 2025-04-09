@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../Styles/HomeStyle.css";
-import pharmaceuticalProducts from "../Assets/pharmacuticalProducts.png";
+import pharmacuticalProducts from "../assets/pharmacuticalProducts.png";
 import { useNavigate } from "react-router-dom";
 
 const Accordion = ({ title, children }) => {
@@ -31,7 +31,7 @@ return (
     </header>
 
     <section className="hero">
-        <img src={pharmaceuticalProducts} alt="Pharmaceutical Products" className="hero-image" />
+        <img src={pharmacuticalProducts} alt="Pharmaceutical Products" className="hero-image" />
         <h2>Your Health, Our Priority</h2>
         <p>
         Welcome to Pharmacy, your trusted partner in wellness and medication. We offer

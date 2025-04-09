@@ -95,8 +95,6 @@ nav {
   background-color: white;
 }
 
-<<<<<<< Updated upstream
-=======
 .page-content {
   margin-left: 10rem;
   background-color: white;
@@ -122,4 +120,3 @@ nav {
 ::-webkit-scrollbar-thumb:hover {
   background-color: var(--color-dark);
 }
->>>>>>> Stashed changes
