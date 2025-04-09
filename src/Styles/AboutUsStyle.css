@@ -1,3 +1,146 @@
-body{
-    margin-left: 15rem;
+:root {
+    --color-light: #e5f9f6;
+    --color-primary: #1A998F;
+    --color-secondary: #187F87;
+    --color-dark: #155665;
+    --color-deep: #102E3C;
+    --color-white: #ffffff;
+}
+
+.about-us-page {
+    margin-left: 8rem;
+    min-height: 100vh;
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+}
+
+.about-header {
+    background-color: var(--color-primary);
+    padding: 1rem 2rem;
+    color: var(--color-white);
+    text-align: center;
+}
+
+  /* Shared style for all sections */
+.about-intro,
+.about-mission,
+.about-values,
+.about-team,
+.about-approach,
+.about-commitment {
+    background-color: var(--color-light);
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.intro-content,
+.mission-content,
+.values-content,
+.team-content,
+.approach-content,
+.commitment-content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.about-intro h2,
+.about-mission h3,
+.about-values h3,
+.about-team h3,
+.about-approach h3,
+.about-commitment h3 {
+    color: var(--color-dark);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about-intro p,
+.about-mission p,
+.about-values li,
+.about-team p,
+.about-approach p,
+.about-commitment p {
+    color: var(--color-deep);
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.about-values ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-values li {
+    margin-bottom: 1rem;
+}
+
+.about-footer {
+    background-color: var(--color-deep);
+    color: var(--color-white);
+    text-align: center;
+    padding: 1rem 2rem;
+}
+
+  /* Accordion base container */
+.about-accordion-section {
+    background-color: #e5f9f6;
+    padding: 4rem 2rem;
+    margin-left: 0;
+}
+
+.accordion {
+    max-width: 700px;
+    margin: 0 auto 1.5rem auto;
+    border-radius: 6px;
+    background-color: var(--color-white);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+  /* Accordion header button */
+.accordion-header {
+    width: 100%;
+    text-align: left;
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+    padding: 1rem 1.5rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.accordion-header:hover {
+    background-color: var(--color-dark);
+}
+
+  /* Accordion icon */
+.accordion-icon {
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+  /* Accordion content */
+.accordion-body {
+    padding: 1.2rem 1.5rem;
+    background-color: var(--color-white);
+    color: var(--color-deep);
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.accordion-body ul {
+    padding-left: 1rem;
+    text-align: left;
+}
+
+.accordion-body li {
+    margin-bottom: 0.75rem;
 }
