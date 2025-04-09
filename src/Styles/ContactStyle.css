@@ -22,17 +22,52 @@ h1 {
 }
 
 .contact-section {
-  margin-bottom: 2rem;
+    margin-top: 2rem;
+  margin-bottom: 1rem;
   
+}
+h2{
+    text-align: left;
 }
 
 .contact-form {
   background-color: #f8f9fa;
   padding: 2rem;
   border-radius: 8px;
-  width:300px;
-    margin-left: 480px;
-  
+  width: 50%;
+  margin-left: 80px;
+}
+
+.contact-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.exaggerated-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 40%;
+}
+
+.exaggerated-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1px;
+}
+
+.list-number {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #155665;
+  margin-left: -110px;
+}
+
+.list-context {
+  font-size: 1.2rem;
+  color: #333;
+  margin-left: 50px;
 }
 
 .faq-item {
@@ -42,7 +77,8 @@ h1 {
 .business-hours {
   background-color: #f8f9fa;
   padding: 1rem;
-  border-radius: 8px;
+  border-radius: 1px;
+  width: 330px;
 }
 
 .live-chat {

@@ -7,7 +7,6 @@
 
 .page-content {
   margin-left: 19.1%;
-  margin-right: -4%;
   height: 100vh; /* Ensure the content area takes the full viewport height */
   overflow-y: auto; /* Enable vertical scrolling for the content */
   background-color: white;
