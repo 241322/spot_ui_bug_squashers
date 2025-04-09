@@ -11,10 +11,9 @@ export default function ContactPage() {
 
     return (
         <div className="contact-container">
-            <h1>Contact Us</h1>
+            <h1>Here's How To Get In Touch With Us</h1>
             
             <div className="contact-section">
-                <h2>Get in Touch</h2>
                 <Form onSubmit={handleSubmit} className="contact-form">
                     <Form.Group className="mb-3">
                         <Form.Label>Name</Form.Label>
