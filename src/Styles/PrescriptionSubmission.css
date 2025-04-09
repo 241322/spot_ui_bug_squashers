@@ -43,7 +43,6 @@ textarea {
 .checkbox-label {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
     font-size: 1rem;
     margin-bottom: 1rem;
     color: var(--color-deep);

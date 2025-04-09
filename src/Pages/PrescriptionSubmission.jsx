@@ -58,10 +58,10 @@ const PrescriptionForm = () => {
 
         <div className="delivery-info">
           <p>Estimated Delivery: 1-2 days</p>
-          <p>Free delivery on orders over $50</p>
+          <p>Free delivery on orders over R50</p>
         </div>
 
-        <button type="submit">Submit Prescription</button>
+        <button type="submit" className='btn-teal'>Submit Prescription</button>
       </form>
     </div>
   );
