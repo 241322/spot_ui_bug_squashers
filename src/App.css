@@ -96,3 +96,28 @@ nav {
   background-color: white;
 }
 
+.page-content {
+  margin-left: 10rem;
+  background-color: white;
+  min-height: 100vh;
+  border-radius: 32px 30px 30px 32px;
+  padding: 2rem;
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-white);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-secondary);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-dark);
+}
