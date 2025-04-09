@@ -1,7 +1,13 @@
 body {
-    margin-left: 15rem;
+  margin-right: 60px;
 }
 
+h1{
+    font-size: 2rem;
+    text-align: left;
+    margin-left: -200px;
+    margin-bottom: 2rem;
+}
 .contact-container {
     padding: 2rem;
     max-width: 800px;
