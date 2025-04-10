@@ -4,7 +4,7 @@ import AboutUs from './Pages/AboutUs';
 import PrescriptionSubmission from './Pages/PrescriptionSubmission';
 import ContactPage from './Pages/ContactPage';
 import './App.css';
-import logo from './Assets/Asset 1.svg'; // Import the logo asset
+import logo from './assets/Asset 1.svg'; // Import the logo asset
 
 const NavLink = ({ to, children }) => {
   const location = useLocation();
