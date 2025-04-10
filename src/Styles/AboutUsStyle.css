@@ -20,6 +20,8 @@
     padding: 1rem 2rem;
     color: var(--color-white);
     text-align: center;
+    padding-left: 10rem;
+    border-radius: 25px 25px 0 0;
 }
 
   /* Shared style for all sections */
@@ -81,6 +83,7 @@
     color: var(--color-white);
     text-align: center;
     padding: 1rem 2rem;
+    border-radius: 0 0 25px 25px;
 }
 
   /* Accordion base container */
