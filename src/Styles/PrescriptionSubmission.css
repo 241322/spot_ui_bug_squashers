@@ -15,9 +15,10 @@ body{
     max-width: 600px;
     margin: 2rem auto;
     padding: 2rem;
-    background-color: var(--color-light);
+    background-color: var(--color-secondary);
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    color: var(--color-light);
 }
   
 h2 {
@@ -43,14 +44,24 @@ textarea {
 .checkbox-label {
     display: flex;
     align-items: center;
+    gap: 0.5rem; /* space between checkbox and text */
     font-size: 1rem;
     margin-bottom: 1rem;
-    color: var(--color-deep);
+    color: var(--color-light);
+    cursor: pointer;
+  }
+  
+.checkbox-label input[type="checkbox"] {
+    margin: 0;
+    width: 16px;
+    height: 16px;
+    accent-color: var(--color-accent); /* optional: match your theme */
+    vertical-align: middle;
 }
   
 .delivery-info {
     font-size: 0.9rem;
-    color: var(--color-dark);
+    color: var(--color-light);
     margin-bottom: 1rem;
 }
   
@@ -67,17 +78,17 @@ button {
 }
   
 button:hover {
-    background-color: var(--color-secondary);
+    background-color: var(--color-dark);
 }
 
 .btn-teal {
-    background-color: #1A998F;
+    background-color: var(--color-dark);
     color: white;
     border: none;
   }
   
 .btn-teal:hover {
-    background-color: #187F87;
+    background-color: var(--color-deep);
     color: white;
 }
   
