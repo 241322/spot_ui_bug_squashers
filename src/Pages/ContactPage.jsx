@@ -33,20 +33,20 @@ export default function ContactPage() {
                             <span className="list-number">03</span>
                             <span className="list-context"></span>
                             <div className="contact-section">
-                                
-                <h2>Come See Us In Person</h2>
-                <Card className="business-hours">
-                    <Card.Body>
-                        <h3>Address</h3>
-                        <p>123 Pharmacy Street<br/>Medical District<br/>City, State 12345</p>
-                        
-                        <h3>Business Hours</h3>
-                        <p>Monday - Friday: 9:00 AM - 8:00 PM<br/>
-                           Saturday: 10:00 AM - 6:00 PM<br/>
-                           Sunday: Closed</p>
-                    </Card.Body>
-                </Card>
-            </div>
+                                <h2>Come See Us In Person</h2>
+                                <div className="business-info">
+                                    <div className="address">
+                                        <h3>Address</h3>
+                                        <p>123 Pharmacy Street<br />Medical District<br />City, State 12345</p>
+                                    </div>
+                                    <div className="hours">
+                                        <h3>Business Hours</h3>
+                                        <p>Monday - Friday: 9:00 AM - 8:00 PM<br />
+                                           Saturday: 10:00 AM - 6:00 PM<br />
+                                           Sunday: Closed</p>
+                                    </div>
+                                </div>
+                            </div>
                         </li>
                     </ul>
                     <Form onSubmit={handleSubmit} className="contact-form">
@@ -79,7 +79,7 @@ export default function ContactPage() {
                             <Form.Control as="textarea" rows={3} required />
                         </Form.Group>
 
-                        <Button variant="primary" type="submit">
+                        <Button className="primary" type="submit">
                             Submit
                         </Button>
                     </Form>
