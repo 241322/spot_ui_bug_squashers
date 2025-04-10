@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../Styles/HomeStyle.css";
-import pharmacuticalProducts from "../assets/pharmacuticalProducts.png";
+import pharmacuticalProducts from "../Assets/pharmacuticalProducts.png";
 import { useNavigate } from "react-router-dom";
 
 const Accordion = ({ title, children }) => {
