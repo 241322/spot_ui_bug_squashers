@@ -210,3 +210,6 @@ body, html, #root {
 .hero h2{
     justify-content: center;
 }
+.header h1{
+    font-weight: 700;
+}
