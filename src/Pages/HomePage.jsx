@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../Styles/HomeStyle.css";
-import pharmacuticalProducts from "../assets/pharmacuticalProducts.png";
+import pharmacuticalProducts from "../Assets/pharmacuticalProducts.png";
 import { useNavigate } from "react-router-dom";
 
 const Accordion = ({ title, children }) => {
@@ -57,7 +57,7 @@ return (
             Skip the queues with our digital prescription submission. Place your order online and collect it when it's convenient for you.
         </p>
         <p>
-            We prioritise speed, accuracy, and customer care — ensuring you get what you need, when you need it.
+            We priorities speed, accuracy, and customer care — ensuring you get what you need, when you need it.
         </p>
         </Accordion>
     </section>
