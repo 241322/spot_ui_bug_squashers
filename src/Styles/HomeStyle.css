@@ -45,6 +45,7 @@ body, html, #root {
     margin-left: 8rem; /* to make space for the 18rem side nav */
     display: flex;
     flex-direction: column;
+    border-radius: 25px;
 }
 
   /* Header */
@@ -52,6 +53,8 @@ body, html, #root {
     background-color: var(--color-primary);
     padding: 1rem 2rem;
     color: var(--color-white);
+    padding-left: 10rem;
+    border-radius: 25px 25px 0 0;
 }
 
   /* Hero section */
@@ -71,6 +74,8 @@ body, html, #root {
     color: var(--color-dark);
     font-size: 2.5rem;
     margin-bottom: 1rem;
+    justify-content: center;
+    text-align: center;
 }
 
 .hero p {
@@ -102,6 +107,7 @@ body, html, #root {
     color: var(--color-white);
     text-align: center;
     padding: 1rem 2rem;
+    border-radius: 0 0 25px 25px;
 }
 
 .info-section {
@@ -199,4 +205,8 @@ body, html, #root {
     color: var(--color-deep);
     font-size: 1rem;
     line-height: 1.6;
+}
+
+.hero h2{
+    justify-content: center;
 }

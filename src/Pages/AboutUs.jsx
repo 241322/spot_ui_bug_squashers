@@ -25,7 +25,7 @@ const AboutUs = () => {
         <section className="about-accordion-section">
         <Accordion title="Dedicated to Your Wellbeing">
             <p>
-            Pharmacy is more than just a store — we’re a team of passionate healthcare professionals
+            Med Sure is more than just a store — we’re a team of passionate healthcare professionals
             dedicated to improving the lives of our community through accessible, reliable, and
             compassionate service.
             </p>
@@ -69,7 +69,7 @@ const AboutUs = () => {
         </section>
 
         <footer className="about-footer">
-        <p>&copy; 2025 Pharmacy. All rights reserved.</p>
+        <p>&copy; 2025 Med Sure. All rights reserved.</p>
         </footer>
     </div>
     );

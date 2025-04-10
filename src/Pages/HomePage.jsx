@@ -27,14 +27,14 @@ const handleGetStarted = () => {
 return (
     <div className="landing-page">
     <header className="header">
-        <h1>Pharmacy</h1>
+        <h1>Med Sure</h1>
     </header>
 
     <section className="hero">
         <img src={pharmacuticalProducts} alt="Pharmaceutical Products" className="hero-image" />
         <h2>Your Health, Our Priority</h2>
         <p>
-        Welcome to Pharmacy, your trusted partner in wellness and medication. We offer
+        Welcome to Med Sure, your trusted partner in wellness and medication. We offer
         reliable healthcare services and pharmaceutical products tailored to your needs.
         </p>
         <button className="cta-button" onClick={handleGetStarted}>Get Started</button>
@@ -43,7 +43,7 @@ return (
     <section className="landing-accordion-section">
         <Accordion title="Why Choose Us?">
         <p>
-            At Pharmacy, we’re committed to providing high-quality, accessible healthcare products and services.
+            At Med Sure, we’re committed to providing high-quality, accessible healthcare products and services.
             Our experienced team ensures that your health needs are met with care and precision.
         </p>
         <p>
@@ -63,7 +63,7 @@ return (
     </section>
 
     <footer className="footer">
-        <p>&copy; 2025 Pharmacy. All rights reserved.</p>
+        <p>&copy; 2025 Medsure. All rights reserved.</p>
     </footer>
     </div>
 );
