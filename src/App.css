@@ -6,14 +6,14 @@
 
 
 .page-content {
-  margin-left: 19.1%;
+  margin-left: 240px !important; /* Adjusted to match the width of the navigation bar */
   height: 100vh; /* Ensure the content area takes the full viewport height */
   overflow-y: auto; /* Enable vertical scrolling for the content */
   background-color: white;
   border-radius: 25px 0 0 25px;
   padding: 2rem;
   position: relative;
-  z-index: 2; 
+  z-index: 1; 
 }
 
 nav {
